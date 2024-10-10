@@ -1,6 +1,6 @@
 const convertToCelsius = (farTemp) => {
   Number (farTemp);
-  celTemp = (farTemp - 32) * (5/9);
+  const celTemp = (farTemp - 32) * (5/9);
   return celTemp;
 }
 const describeTemp = (fartemp) => {
@@ -22,6 +22,10 @@ const describeTemp = (fartemp) => {
 
   }
 
+}
+const rand = (input) => {
+  const randomNumber = Number(inputt) * Math.random();
+  return randomNumber
 }
 const temp = prompt("Input a farenheight temperature")
 alert(convertToCelsius (temp))
